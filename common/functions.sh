@@ -147,9 +147,9 @@ mount_mirrors() {
 }
 
 # Credits
-ui_print "**************************************"
-ui_print "*   MMT Extended by Zackptg5 @ XDA   *"
-ui_print "**************************************"
+ui_print "****************************"
+ui_print " Magisk Hosts by SimonBaars "
+ui_print "****************************"
 ui_print " "
 
 # Check for min/max api version
