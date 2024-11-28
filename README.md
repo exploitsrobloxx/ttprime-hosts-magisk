@@ -1,40 +1,20 @@
-<h1 align="center">Magisk Module Template Extended (MMT-Ex)</h1>
+## Magisk Hosts
+A Magisk module that blocks a select set of distracting platforms via a custom hosts file (YouTube, Twitter, Facebook, Reddit, etc).
 
-<div align="center">
-  <!-- Version -->
-    <img src="https://img.shields.io/badge/Version-v3.7-blue.svg?longCache=true&style=popout-square"
-      alt="Version" />
-  <!-- Last Updated -->
-    <img src="https://img.shields.io/badge/Updated-April 24, 2024-green.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min Magisk -->
-    <img src="https://img.shields.io/badge/MinMagisk-20.4-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" />
-  <!-- Min KSU -->
-    <img src="https://img.shields.io/badge/MinKernelSU-0.6.6-red.svg?longCache=true&style=flat-square"
-      alt="_time_stamp_" /></div>
+## Why?
+In my quest for reducing distractions, I tend to block myself from certain things. On Android, I usually did that using the Stay Focused app, but as a dev I think it's nicer to just maintain a custom hosts file.
 
-<div align="center">
-  <strong>MMT Extended is the spiritual successor of Unity and makes magisk module creation easy. Instructions in the 
-    <h3><a href="https://github.com/Zackptg5/MMT-Extended/wiki">Wiki</a></h3><h4>Also supports KSU</h4>
-</div>
+On my laptop, I use `hblock`, which works great. The hosts file featured in this module is largely a copy from my `/etc/hblock/deny.list`.
 
-<div align="center">
-  <h3>
-    <a href="https://github.com/Zackptg5/MMT-Extended">
-      Source Code
-    </a>
-    <span> | </span>
-    <a href="https://github.com/Zackptg5/MMT-Extended-Addons">
-      Addons Repository
-    </a>
-    <span> | </span>
-    <a href="https://forum.xda-developers.com/apps/magisk/magisk-module-template-extended-mmt-ex-t4029819">
-      XDA
-    </a>
-  </h3>
-</div>
+## What this is not
+This is not a module to block adware/spam/etc. There are plenty modules that do that.
 
-### Usage
-- [Follow the directions here (DO NOT FORK)](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
-- Then follow instructions in [Wiki](https://github.com/Zackptg5/MMT-Extended/wiki)
+This module also doesn't feature a complete list of domains, just a select few that I find distracting. If you want to add some, feel free to open a PR, probably things that you find distracting are also distracting for me. But note that it's explicitly not the goal to have multiple MBs of domains and be exhaustive.
+
+## Requirements
+An Android phone which runs Magisk. Enable "systemless hosts" in the Magisk settings. It should be compatible with pretty much any Android version.
+
+## Installation
+Download the zip from here: https://github.com/SimonBaars/magisk-hosts/releases/tag/1.0
+
+Flash the zip using Magisk. Reboot when Magisks prompts you to. After reboot, use your browser to go to Youtube.com to test that it works.
