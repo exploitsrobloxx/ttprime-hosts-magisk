@@ -1,6 +1,6 @@
 {
-  "version": "v3.6",
-  "versionCode": 18,
-  "zipUrl": "https://github.com/SimonBaars/magisk-hosts/releases/download/1.0/magisk-auto-screenshot.zip",
+  "version": "v1.1",
+  "versionCode": 19,
+  "zipUrl": "https://github.com/SimonBaars/magisk-hosts/releases/download/1.1/magisk-hosts-1.1.zip",
   "changelog": "https://raw.githubusercontent.com/SimonBaars/magisk-hosts/changelog.md"
 }
