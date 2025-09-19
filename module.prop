@@ -1,7 +1,6 @@
-id=hosts
-name=Hosts
+id=ttprimehosts
+name=TT Prime Hosts
 version=v1.0
 versionCode=1
-author=SimonBaars
-description=Blocks distracting websites
-updateJson=https://raw.githubusercontent.com/SimonBaars/magisk-hosts/master/update.json
+author=exploitsrobloxx
+description=Blokiruyet avariyniye obnovleniya TT Prime
